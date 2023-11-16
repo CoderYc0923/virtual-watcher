@@ -1,7 +1,7 @@
 {
-  "name": "@virtual-monitor/vue3",
-  "version": "0.2.0",
-  "description": "前端监控插件,支持[行为、性能、异常、请求、资源、路由、曝光]监控 - vue3",
+  "name": "virtual-watcher",
+  "version": "1.0.2",
+  "description": "前端监听用户网络状态SDK,可用于需获取用户网络状态的业务场景",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "jsdelivr": "./dist/index.iife.min.js",
@@ -18,25 +18,22 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CoderYc0923/virtual-monitor.git",
+    "url": "git+https://github.com/CoderYc0923/virtual-watcher.git",
     "directory": "packages/vue3"
   },
   "author": "Yc <https://github.com/CoderYc0923>",
   "keywords": [
-    "埋点",
+    "网络情况",
     "性能",
-    "异常",
-    "性能采集",
-    "异常采集",
-    "前端埋点",
-    "前端性能采集"
+    "监控",
+    "前端监控"
   ],
   "dependencies": {
-    "@virtual-monitor/core": "workspace:^"
+    
   },
   "bugs": {
-    "url": "https://github.com/CoderYc0923/virtual-monitor/issues"
+    "url": "https://github.com/CoderYc0923/virtual-watcher/issues"
   },
-  "homepage": "https://github.com/CoderYc0923/virtual-monitor#readme",
+  "homepage": "https://github.com/CoderYc0923/virtual-watcher#readme",
   "unpkg": "./dist/index.iife.min.js"
 }

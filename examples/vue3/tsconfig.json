@@ -14,13 +14,10 @@
     "noEmit": true,
     "paths": {
       "@web-tracing/core": ["../../packages/core/index.ts"],
-      "@web-tracing/core/*": ["../../packages/core/*"],
+      "@web-tracing/core/*": ["../../packages/core/*"]
       // "@web-tracing/component": ["./packages/component/index.ts"],
     },
-    "types": [
-      "vite/client"
-    ]
+    "types": ["vite/client"]
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
 }
